@@ -1,15 +1,21 @@
-﻿import requests
+import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
 
 session = requests.session()
+
+url_login = 'http://drrrkari.com/#'
+req_before = session.get(url_login)
+cookie_before = req_before.cookies
+
+bs = BeautifulSoup(req_before.text, 'html.parser')
+token = bs.find(attrs={'name':'token'}).get('value')
 
 login_info = {
     "language":"jp-JP",
     "icon":"setton",
     "name":"nyaharo",
     "login":"login",
-    "token":"35cb62b76541bdb25b7c8976a52e97d2"
+    "token":token
 }
 
 url_login = "http://drrrkari.com/#"
