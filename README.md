@@ -5,6 +5,14 @@
 
 ### ubuntuからcode.py実行。失敗
 
-## 案として、seleniumがいい？
+## 案として、selenium？
 
-とりあえず寝る。
+https://gist.github.com/Clavelito/5bd3d316236e5e71f8d3ec033cf644bb
+ログインできた；；ありがとう
+
+とりあえず寝ます
+
+
+[スペシャルサンクス]
+- ぺる氏
+- ロンパイセン
