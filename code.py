@@ -22,4 +22,10 @@ url_login = "http://drrrkari.com/#"
 res = session.post(url_login, data=login_info)
 res.raise_for_status()
 
+res.encoding = res.apparent_encoding 
 print(res.text)
+
+f = open('myfile.txt', 'w', encoding='UTF8')
+f.write(res.text)
+f.close()
+
