@@ -6,7 +6,7 @@
 ### ubuntuからcode.py実行。失敗
 
 ## 案として、selenium？
-
+```
 https://gist.github.com/Clavelito/5bd3d316236e5e71f8d3ec033cf644bb
 ログインできた；；ありがとう
 
@@ -16,3 +16,4 @@ https://gist.github.com/Clavelito/5bd3d316236e5e71f8d3ec033cf644bb
 [スペシャルサンクス]
 - ぺる氏
 - ロンパイセン
+```
